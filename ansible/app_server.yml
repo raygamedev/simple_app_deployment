@@ -1,0 +1,8 @@
+---
+- name: App Server Playbook
+  hosts: server
+  gather_facts: true
+  tasks:
+    - debug:
+        msg: Hello Ray
+

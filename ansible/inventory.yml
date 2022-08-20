@@ -1,0 +1,4 @@
+server:
+  hosts:
+    10.0.0.14:
+      ansible_user: ray-server
